@@ -1,5 +1,6 @@
 # Instalacia Neovim
 
+- ? zatial treba pridavat unstable package lebo apt install neovim nainstaluje 0.44 verziu
 - pridanie ppa unstable release neovimu & instalacia neovimu:
 
 ```shell
@@ -13,7 +14,7 @@ sudo apt install neovim -y
 - repository sa vzdy kopiruje do .config/nvim priecinku
 
 ```shell
-git clone clone Marek-Kison/nvim\
+git clone clone SteppenLion/nvim\
  ~/.config/nvim/
 ```
 
@@ -37,7 +38,7 @@ git clone https://github.com/wbthomason/packer.nvim\
 ## Nvim-Tree [GitHub](https://github.com/kyazdani42/nvim-tree.lua)
 
 - supborovy prehliadac pre Neovim napisany v lua
-- potrbujeme neovim >=0.5.0
+- potrebujeme neovim >= 0.5
 
 ```lua
 use {
