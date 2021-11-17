@@ -45,7 +45,6 @@ map('n', '<leader>e', ':NvimTreeToggle<cr>', options)
 map('n', '<leader>r', ':NvimTreeRefresh<cr>', options)
 map('n', '<leader>n', ':NvimTreeFindFile<cr>', options)
 
-
 -- Telescope
 map('n', '<leader>ff', ':Telescope find_files<CR>', options)
 map('n', '<leader>fg', ':Telescope live_grep<CR>', options)
