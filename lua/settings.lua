@@ -10,6 +10,8 @@ cmd[[
 vim.api.nvim_command('set listchars=tab:!·,trail:·')
 
 vim.o.number = true
+vim.o.textwidth = 80
+vim.o.formatoptions = vim.o.formatoptions .. 'a' 
 vim.o.relativenumber = false
 vim.o.autoindent = true
 vim.o.background = "dark"
@@ -33,7 +35,6 @@ vim.o.spelllang = "en"
 vim.o.splitbelow = true
 vim.o.splitright = true
 vim.o.swapfile = false
-vim.o.textwidth = 100
 
 -- TABS
 vim.o.tabstop = 4

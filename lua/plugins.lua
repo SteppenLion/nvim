@@ -44,7 +44,6 @@ packer.startup(function()
   use 'neovim/nvim-lspconfig'
   use 'onsails/lspkind-nvim'
   use 'folke/lsp-colors.nvim'
-  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
   use { 'folke/trouble.nvim', requires = "kyazdani42/nvim-web-devicons" }
 
   -- Formatting
