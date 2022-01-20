@@ -14,8 +14,8 @@ sudo apt install neovim -y
 - repository sa vzdy kopiruje do .config/nvim priecinku
 
 ```shell
-git clone clone SteppenLion/nvim\
- ~/.config/nvim/
+cd .config
+git clone https://github.com/SteppenLion/nvim.git
 ```
 
 # Instalacia Packer-a (package manager)
