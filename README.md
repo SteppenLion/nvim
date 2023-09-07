@@ -8,6 +8,17 @@ sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt install neovim -y
 ```
+- alebo zcompiluj z source
+
+```shell
+sudo apt-get install ninja-build gettext cmake unzip curl
+git clone https://github.com/neovim/neovim.git
+cd neovim
+git checkout v0.9.1
+make CMAKE_BUILD_TYPE=Release
+sudo make install
+```
+  
 
 ## Kopirovanie repo
 
