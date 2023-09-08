@@ -7,12 +7,7 @@ return {
   view = {
     width = 30,
     side = "right",
-    mappings = {
-      list = {
-        { key = "u", action = "dir_up" },
-      },
     },
-  },
   renderer = {
     group_empty = true,
   },

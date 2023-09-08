@@ -15,8 +15,6 @@ return {
       { "hrsh7th/cmp-path", event = "VeryLazy" },
       { "hrsh7th/cmp-nvim-lsp", event = "VeryLazy" },
       { "hrsh7th/cmp-nvim-lua", event = "VeryLazy" },
-      -- UI
-      { "j-hui/fidget.nvim", config = true, event = "VeryLazy" },
     },
     config = function()
       -- Lsp
@@ -32,8 +30,6 @@ return {
       lsp.ensure_installed({
         "html",
         "tsserver",
-        "cssls",
-        "tailwindcss",
         "stylelint_lsp",
         "eslint",
         "marksman",

@@ -1,18 +1,14 @@
 -- local exec = vim.api.nvim_exec -- execute Vimscript
-local set = vim.opt -- global options
-local cmd = vim.cmd -- execute Vim commands
--- local fn    = vim.fn            -- call Vim functions
--- local g = vim.g -- global variables
--- local b     = vim.bo            -- buffer-scoped options
--- local w     = vim.wo            -- windows-scoped options
+local set = vim.opt               -- global options
+local cmd = vim.cmd               -- execute Vim commands
+-- local fn    = vim.fn           -- call Vim functions
+-- local g = vim.g                -- global variables
+-- local b     = vim.bo           -- buffer-scoped options
+-- local w     = vim.wo           -- windows-scoped options
 
--- require("tokyonight").setup(
---   {
---     transparent = false
---   }
--- )
+
 cmd("autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=grey") -- to Show whitespace, MUST be inserted BEFORE the colorscheme command
--- cmd("colorscheme tokyonight")
+
 set.termguicolors = true -- Enable GUI colors for the terminal to get truecolor
 set.list = false -- show whitespace
 set.listchars = {

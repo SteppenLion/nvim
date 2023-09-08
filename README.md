@@ -8,6 +8,7 @@ sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt install neovim -y
 ```
+
 - alebo zcompiluj z source
 
 ```shell
@@ -18,7 +19,6 @@ git checkout v0.9.1
 make CMAKE_BUILD_TYPE=Release
 sudo make install
 ```
-  
 
 ## Kopirovanie repo
 
@@ -29,7 +29,7 @@ cd .config
 git clone https://github.com/SteppenLion/nvim.git
 ```
 
-# Instalacia Packer-a (package manager)
+## Instalacia Packer-a (package manager)
 
 - nainstaluj Packer [GitHub-odkaz](https://github.com/wbthomason/packer.nvim)
 - priecinok kde bude nainstalovany neovim: `/.local/share/nvim/site/pack/packer/start/`
@@ -40,9 +40,9 @@ git clone https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-# Instalacia
+## Instalacia
 
-# Packages
+## Packages
 
 - informacie o niektorych packages, ktore mam nainstalovane
 
@@ -76,7 +76,7 @@ use {
 
 ## Nvim-Completion [GitHub](https://github.com/hrsh7th/nvim-cmp)
 
-# Help
+## Help
 
 - ako pokracovat a najist spravnu odpoved pomocou `:help` alebo iba skratene `:h`
 - napis do Nvim `:h lua` (priklady ako pisat v jazyku lua) alebo `:h config`

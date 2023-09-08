@@ -11,5 +11,10 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.runtimepath:prepend(lazypath)
 
--- Automatically source all configs in plugins directory.
-require("lazy").setup("plugins")
+-- -- Automatically source all configs in plugins directory.
+-- require("lazy").setup("plugins")
+
+-- load lazy
+require("lazy").setup("plugins", {
+	install = { colorscheme = { "tokyonight" } },
+})
