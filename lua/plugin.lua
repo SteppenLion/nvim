@@ -15,6 +15,4 @@ vim.opt.runtimepath:prepend(lazypath)
 -- require("lazy").setup("plugins")
 
 -- load lazy
-require("lazy").setup("plugins", {
-	install = { colorscheme = { "tokyonight" } },
-})
+require("lazy").setup("plugins", {})
