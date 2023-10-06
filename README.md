@@ -80,3 +80,4 @@ use {
 
 - ako pokracovat a najist spravnu odpoved pomocou `:help` alebo iba skratene `:h`
 - napis do Nvim `:h lua` (priklady ako pisat v jazyku lua) alebo `:h config`
+- something else
