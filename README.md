@@ -3,7 +3,7 @@
 - ? zatial treba pridavat unstable package lebo apt install neovim nainstaluje 0.44 verziu
 - pridanie ppa unstable release neovimu & instalacia neovimu:
 
-```shell
+```sh
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt install neovim -y
@@ -11,7 +11,7 @@ sudo apt install neovim -y
 
 - alebo zcompiluj z source
 
-```shell
+```sh
 sudo apt-get install ninja-build gettext cmake unzip curl
 git clone https://github.com/neovim/neovim.git
 cd neovim
@@ -24,7 +24,7 @@ sudo make install
 
 - repository sa vzdy kopiruje do .config/nvim priecinku
 
-```shell
+```sh
 cd .config
 git clone https://github.com/SteppenLion/nvim.git
 ```
