@@ -14,6 +14,8 @@ return {
       { "hrsh7th/cmp-buffer", event = "VeryLazy" },
       { "hrsh7th/cmp-path", event = "VeryLazy" },
       { "hrsh7th/cmp-nvim-lsp", event = "VeryLazy" },
+      {"L3MON4D3/LuaSnip",run = "make install_jsregexp",event="VeryLazy"},
+      
     },
     config = function()
       -- Lsp
@@ -39,6 +41,7 @@ return {
       })
 
       local cmp = require("cmp")
+      local luasnip = require("luasnip")  
       local cmp_select = { behavior = cmp.SelectBehavior.Select }
       local cmp_mappings = lsp.defaults.cmp_mappings({
         ["<C-p>"] = cmp.mapping.select_prev_item(cmp_select),
