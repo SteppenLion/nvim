@@ -31,7 +31,6 @@ return {
       lsp.ensure_installed({
         "html",
         "tsserver",
-        "stylelint_lsp",
         "eslint",
         "marksman",
         "pyright",
