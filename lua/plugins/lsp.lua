@@ -14,7 +14,7 @@ return {
       { "hrsh7th/cmp-buffer", event = "VeryLazy" },
       { "hrsh7th/cmp-path", event = "VeryLazy" },
       { "hrsh7th/cmp-nvim-lsp", event = "VeryLazy" },
-      {"L3MON4D3/LuaSnip",run = "make install_jsregexp",event="VeryLazy"},
+      {"L3MON4D3/LuaSnip",version = "v2.*", build = "make install_jsregexp",event="VeryLazy"},
       
     },
     config = function()
