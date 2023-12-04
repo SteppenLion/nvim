@@ -1,13 +1,12 @@
-prefix_list = {} -- For key menu plugin.
+PREFIX_LIST = {} -- For key menu plugin.
 
 vim.g.mapleader = " "
-table.insert(prefix_list, {"n", "<Space>"})
+table.insert(PREFIX_LIST, { "n", "<Space>" })
 
 -- telescope
 vim.keymap.set("n", "<Leader>ff", "<cmd>Telescope find_files<cr>")
 vim.keymap.set("n", "<Leader>fg", "<cmd>Telescope live_grep<cr>")
 vim.keymap.set("n", "<Leader>fb", "<cmd>Telescope buffers<cr>")
-
 
 --- quicklist
 vim.keymap.set("n", "<leader>qn", "<cmd>:cnext<cr>")
@@ -31,7 +30,6 @@ vim.keymap.set("n", "<Leader>vsd", "<cmd>lua vim.diagnostic.open_float({scope='l
 vim.keymap.set("n", "<Leader>vn", "<cmd>lua vim.diagnostic.goto_next()<CR>")
 vim.keymap.set("n", "<Leader>vp", "<cmd>lua vim.diagnostic.goto_prev()<CR>")
 vim.keymap.set("n", "<Leader>vf", "<cmd>Format<CR>")
-
 
 -- Escape to escape a terminal
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", {})
